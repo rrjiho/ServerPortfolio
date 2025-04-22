@@ -1,11 +1,11 @@
 # ServerPortfolio 문서
 
 ## 1. 개요
-C# 및 ASP.NET 기반의 멀티플레이 게임 서버. Unity 클라이언트와 연동하며, 다양한 기능을 포함하여 확장성을 고려한 설계를 적용합니다.
+C# 및 Socket 기반의 멀티플레이 게임 서버. Unity 클라이언트와 연동하며, 다양한 기능을 포함하여 확장성을 고려한 설계를 적용합니다.
 
 ## 2. 시스템 구성
 - **클라이언트:** Unity
-- **서버:** C# SocketAsyncEventArgs 기반 비동기 소켓 서버 + ASP.NET Core Web API
+- **서버:** C# SocketAsyncEventArgs 기반 비동기 소켓 서버
 - **DB:** SQLServer (Entity Framework 사용)
 
 ## 3. 아키텍처 다이어그램
